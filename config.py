@@ -18,6 +18,6 @@ FLOOD = int(os.environ.get("FLOOD", "100"))
 
 START_PIC = os.environ.get("START_PIC", "https://m.facebook.com/photo.php/?photo_id=441653241329237")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', ''689061386").split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get("ADMIN", ''689061386").split()]
 
 PORT = os.environ.get("PORT", "8080")
